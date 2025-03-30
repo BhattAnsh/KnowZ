@@ -1,0 +1,13 @@
+Flask==2.3.3
+flask-cors==4.0.0
+flask-jwt-extended==4.5.3
+Werkzeug==2.3.7
+
+# Database
+python-arango==7.9.1
+
+# Environment and Configuration
+python-dotenv==1.0.0
+
+# Logging (while in stdlib, ensuring consistency)
+logging==0.5.1.2

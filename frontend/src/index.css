@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
+
+:root {
+  @apply bg-white text-gray-900;
+
+  /* Light mode (off-white & green) */
+  --color-background: #f8f7f4;
+  --color-text-primary: #1c1917;
+  --color-text-secondary: #57534e;
+  --color-accent: #16a34a; /* green-600 */
+  --color-accent-hover: #15803d; /* green-700 */
+  --color-button-secondary: #e7e5e4;
+  --color-button-secondary-hover: #d6d3d1;
+}
+
+.dark {
+  @apply bg-gray-900 text-white;
+
+  --color-background: #1c1917;
+  --color-text-primary: #f8f7f4;
+  --color-text-secondary: #d6d3d1;
+  --color-accent: #4ade80; /* green-400 */
+  --color-accent-hover: #22c55e; /* green-500 */
+  --color-button-secondary: #292524;
+  --color-button-secondary-hover: #44403c;
+}
+
+.dark body {
+  @apply bg-gray-900 text-white;
+}
+
+/* You can add more dark theme specific styles here */
+
+/* Global background */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.aspect-w-16 {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.aspect-w-16 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
