@@ -79,7 +79,7 @@ This graph structure enables efficient querying for potential matches, finding u
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/knowz.git
+   git clone [https://github.com/Bhatt/knowZ.git](https://github.com/BhattAnsh/KnowZ.git)
    cd knowz
    ```
 
