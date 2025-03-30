@@ -21,6 +21,8 @@ KnowZ is a modern web application that connects people based on complementary te
 
 KnowZ facilitates peer-to-peer skill exchange by matching users based on their teaching abilities and learning goals. The platform uses a graph database to efficiently find complementary skill relationships between users, enabling a swipe-based matching system similar to dating apps. Users can find someone who knows what they want to learn, and in return, they can teach skills they've mastered.
 
+<img src="assets/Features.png" alt="KnowZ Architecture" width="700">
+
 ## ✨ Features
 
 - **User Authentication**: Secure registration and login with JWT token-based authentication
