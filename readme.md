@@ -33,6 +33,7 @@ KnowZ facilitates peer-to-peer skill exchange by matching users based on their t
 - **Real-time Messaging**: Communicate with matched users
 - **User Dashboard**: View statistics, pending matches, and recent activity
 - **Dark/Light Modes**: Customizable UI themes
+<img src="assets/Flow.png" alt="KnowZ Architecture" width="700">
 
 ## 🛠️ Tech Stack
 
